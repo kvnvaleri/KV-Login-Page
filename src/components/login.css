@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.login-main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-main {
+    background-color: #EAEAEA;
+    width: 522px;
+    height: 622px;
+    border-radius: 20px;
+}
+
+.welcome {
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #353535;
+    margin-top: 1.5rem;
+}
+
+.login-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #8C8C8C;
+    margin-top: -1.2rem;
+}
+
+.email {
+    width: 400px;
+    height: 51px;
+    left: 495px;
+    top: 310px;
+    background: #FFFFFF;
+    border-radius: 60px;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.email::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(198, 198, 198, 0.5);
+    padding-left: 2rem;
+}
+
+.password {
+    width: 400px;
+    height: 51px;
+    left: 495px;
+    top: 310px;
+    background: #FFFFFF;
+    border-radius: 60px;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.password::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(198, 198, 198, 0.5);
+    padding-left: 2rem;
+}
+
+.forgot-password {
+    margin-left: 4rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #DD424C;
+    text-decoration: none;
+}
+
+.remember-password {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #353535;
+}
+
+.login-button {
+    margin-top: 2rem;
+    width: 400px;
+    height: 51px;
+    left: 495px;
+    top: 310px;
+    background: #101010;
+    border-radius: 60px;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.or {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #101010;
+}
+
+.facebook-login {
+    margin-left: 1rem;
+}
+
+.dont-have-account {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #353535;
+    margin-top: 1.5rem;
+}
+
+.signup {
+    color: #DD424C;
+    text-decoration: none;
+}
